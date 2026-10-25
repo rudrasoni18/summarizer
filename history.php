@@ -90,7 +90,7 @@ $st = $pdo->prepare($sql);
 $st->execute($params);
 $records = $st->fetchAll();
 
-$pageTitle = 'DB Manager';
+$pageTitle = 'My Directory';
 require_once __DIR__ . '/navbar.php';
 ?>
 
@@ -345,7 +345,7 @@ require_once __DIR__ . '/navbar.php';
     <div>
       <h1>
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-.2em;margin-right:.4rem;" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"/><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
-        DB Manager
+        My Directory
       </h1>
       <p class="text-muted-dm">Search, edit, and manage your PDF & text analysis history.</p>
     </div>

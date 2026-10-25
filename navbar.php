@@ -10,7 +10,7 @@ $userInitial = $isLoggedIn ? strtoupper(mb_substr($_SESSION['user_name'] ?? 'U',
 
 $navLinks = [
     'dashboard.php'  => ['label' => 'Workspace',        'icon' => 'grid'],
-    'history.php'    => ['label' => 'DB Manager',       'icon' => 'database'],
+    'history.php'    => ['label' => 'My Directory',       'icon' => 'database'],
     'profile.php'    => ['label' => 'Profile',          'icon' => 'user'],
 ];
 ?>
