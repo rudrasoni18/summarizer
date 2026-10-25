@@ -1,14 +1,5 @@
 <?php
-/**
- * DocuMind — navbar.php
- * Global styles, 3-mode theme engine, Uiverse micro-interactions,
- * brand identity, and top navigation bar.
- *
- * Include at the very top of every page:
- *   require_once __DIR__ . '/navbar.php';
- *
- * Optional: set $pageTitle before including.
- */
+
 
 $pageTitle   = $pageTitle   ?? 'DocuMind';
 $currentPage = basename($_SERVER['PHP_SELF']);
@@ -30,7 +21,8 @@ $navLinks = [
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="DocuMind — AI-powered PDF summarizer and question generator">
   <title><?= htmlspecialchars($pageTitle) ?> — DocuMind</title>
-
+  <!-- DocuMind Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%230ea5e9'/><path d='M30 22h28l16 16v40a6 6 0 0 1-6 6H30a6 6 0 0 1-6-6V28a6 6 0 0 1 6-6z' fill='none' stroke='white' stroke-width='7' stroke-linejoin='round'/><path d='M56 22v18h18' fill='none' stroke='white' stroke-width='7' stroke-linejoin='round'/><line x1='38' y1='54' x2='62' y2='54' stroke='white' stroke-width='7' stroke-linecap='round'/><line x1='38' y1='68' x2='52' y2='68' stroke='white' stroke-width='7' stroke-linecap='round'/></svg>">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
